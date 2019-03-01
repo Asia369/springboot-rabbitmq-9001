@@ -1,0 +1,10 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: rabbitmq-hello
+  rabbitmq:
+    addresses: 172.28.124.10:5672,172.28.124.13:5672
+    username: rabbit
+    password: rabbit
